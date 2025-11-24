@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Pratyush",
+        "team": "SOW",
+        "city": "Mumbai",
+        "expertise": ["Off-Road", "Mountain Biking", "Riding Gear Tips"]
+    },
+    {
+        "id": 2,
+        "name": "Adarsh Singh",
+        "team": "SOW",
+        "city": "Mumbai",
+        "expertise": ["Noob rider"]
+    },
+    {
+        "id": 3,
+        "name": "Parth",
+        "team": "SOW",
+        "city": "Mumbai",
+        "expertise": ["City Rides", "Long Distance"]
+    },
+    {
+        "id": 4,
+        "name": "Hariraj",
+        "team": "SOW",
+        "city": "Pune",
+        "expertise": ["Mountain Biking", "Trail Riding", "Riding Gear Tips"]
+    }
+]

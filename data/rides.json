@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Sunday Morning Ride",
+        "description": "Short city ride",
+        "date": "2025-02-10",
+        "distance": 40,
+        "meeting_point": "Central Park"
+    },
+    {
+        "title": "Hill Station Expedition",
+        "description": "Weekend Mountain Ride",
+        "date": "2025-02-18",
+        "distance": 180,
+        "meeting_point": "Malada Bus Stop"
+    },
+    {
+        "title": "Adventure Off-Road Ride",
+        "description": "Trails + Off-road",
+        "date": "2025-02-25",
+        "distance": 90,
+        "meeting_point": "Andheri Railway Station"
+    }
+]
