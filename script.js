@@ -32,7 +32,7 @@ fetch("data/riders.json")
         team.forEach(member => {
             teamList.innerHTML += `
                 <div class="team-card">
-                    <img src="images/default-profile.png" alt="${member.name}">
+                    <img src="images/logo.jpg" alt="${member.name}">
                     <h3>${member.name}</h3>
                     <p><strong>Team:</strong> ${member.team}</p>
                     <p><strong>City:</strong> ${member.city}</p>

@@ -46,7 +46,7 @@ body {
 /* Hero Section */
 .hero {
     height: 90vh;
-    background: url("images/ride1.jpg") center/cover no-repeat;
+    background: url("images/logoa.jpg") center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
