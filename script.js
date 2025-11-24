@@ -17,6 +17,26 @@ fetch("data/rides.json")
                     <p>${ride.description}</p>
                     <p><strong>Date:</strong> ${ride.date}</p>
                     <p><strong>Distance:</strong> ${ride.distance} km</p>
+                    <p><strong>Meeting Point:</strong> ${ride.meeting_point}</p>
+                </div>
+            `;
+        });
+    });
+
+// Load team data from JSON
+fetch("data/riders.json")
+    .then(res => res.json())
+    .then(team => {
+        const teamList = document.getElementById("teamList");
+
+        team.forEach(member => {
+            teamList.innerHTML += `
+                <div class="team-card">
+                    <img src="images/default-profile.png" alt="${member.name}">
+                    <h3>${member.name}</h3>
+                    <p><strong>Team:</strong> ${member.team}</p>
+                    <p><strong>City:</strong> ${member.city}</p>
+                    <p><strong>Expertise:</strong><br> ${member.expertise.join(", ")}</p>
                 </div>
             `;
         });
